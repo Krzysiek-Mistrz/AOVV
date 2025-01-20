@@ -92,9 +92,9 @@ sudo raspi-config nonint disable_raspi_config_at_boot 0
    ```bash
    cd AOVV
    ```
-3. Uruchom wybrany skrypt, np. test komunikacji SPI:
+3. Uruchom wybrany skrypt, np. test komunikacji I2C i SPI:
    ```bash
-   python tests/test_spi.py
+   python sensors_codes_python/sensor-tests/test_dzialania_i2c_spi_rev0.py
    ```
 
 ## Plan rozwoju
