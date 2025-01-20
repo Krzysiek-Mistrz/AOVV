@@ -27,14 +27,36 @@ Repozytorium (obecnie) zawiera kody źródłowe w Pythonie obsługujące następ
 
 ## Struktura katalogów
 ```
-AOVV/
-├── sensors/
-│   ├── lora_client_rev0.py
-│   ├── tb6612fng_rev0.py
-│   ├── tcrt5000_rev0.py
-│   ├── bno085_rev0.py
-│   ├── test_spi.py
-│   ├── test_i2c.py
+sensors_codes_python/
+└── sensor-tests
+    ├── bno085_rev0.py
+    ├── env
+    │   ├── bin
+    │   ├── lib
+    │   ├── lib64 -> lib
+    │   └── pyvenv.cfg
+    ├── lora_client_rev0
+    ├── pySX127x
+    │   ├── build
+    │   ├── dist
+    │   ├── LORA_CLIENT_encrypted.py
+    │   ├── LORA_CLIENT.py
+    │   ├── lora_sender.py
+    │   ├── LORA_SERVER_encrypted.py
+    │   ├── LORA_SERVER.py
+    │   ├── lora_util.py
+    │   ├── pyLoRa.egg-info
+    │   ├── rx_cont.py
+    │   ├── setup.py
+    │   ├── socket_client.py
+    │   ├── socket_transceiver.py
+    │   ├── SX127x
+    │   ├── test_lora.py
+    │   └── tx_beacon.py
+    ├── stan_dzialania_czujnikow_rev0.md
+    ├── tb6612fng_rev0.py
+    ├── tcrt5000_rev0.py
+    └── test_dzialania_i2c_spi_rev0.py
 ```
 
 ## Wymagania
