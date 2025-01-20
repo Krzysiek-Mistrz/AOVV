@@ -58,7 +58,7 @@ sensors_codes_python/
     ├── tcrt5000_rev0.py
     └── test_dzialania_i2c_spi_rev0.py
 ```
-W katalogu sensor_tests są obecnie zgromadzone kody pythonowe do testowania czujników.
+W katalogu sensor_tests są obecnie zgromadzone kody pythonowe do testowania czujników, a także niezbędna pod SX127X oraz środowisko wirtualne pythona env do własnegio testowania kodów.
 
 ## Wymagania
 UWAGA: Przed zainstalowaniem adafruit-blinka upewnij się że poprawnie skonfigurowałeś wszystkie interfejsy do pracy, ustawiłeś częstotliwość I2C na 400000Hz oraz poprawnie podłączyłeś wszystkie piny!
