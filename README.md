@@ -8,10 +8,10 @@ AOVV to projekt autonomicznego robota zdolnego do unikania przeszkód (poruszaj�
 Repozytorium (obecnie) zawiera kody źródłowe w Pythonie obsługujące następujące komponenty:
 
 ### Obsługa sensorów
-- **LoRa**: Moduł komunikacji długodystansowej.
+- **LoRa**: Moduł komunikacji długodystansowej. tutorial: https://circuitdigest.com/microcontroller-projects/raspberry-pi-with-lora-peer-to-peer-communication-with-arduino
 - **TB6612FNG**: Sterownik silników DC.
 - **TCRT5000**: Czujnik linii do detekcji podłoża.
-- **BNO085**: IMU (Inertial Measurement Unit) do pomiarów orientacji.
+- **BNO085**: IMU (Inertial Measurement Unit) do pomiarów orientacji. tutorial: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi ; https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085/python-circuitpython
 
 ### Testowanie protokołów
 - **SPI**: Kod testujący poprawność komunikacji w protokole SPI.
