@@ -107,7 +107,7 @@ sudo raspi-config nonint disable_raspi_config_at_boot 0
 - [ ] Testy w środowisku rzeczywistym.
 
 ## Wsparcie
-W razie problemów lub pytań, prosimy o kontakt poprzez zgłoszenie w sekcji [Issues](https://github.com/twoje-repozytorium/AOVV/issues).
+W razie problemów lub pytań, prosimy o kontakt poprzez zgłoszenie w sekcji [Issues](https://github.com/Krzysiek-Mistrz/AOVV/issues).
 
 ## Licencja
-Projekt jest udostępniany na licencji GNU GPL. Szczegóły znajdują się w pliku `LICENSE`.
+Creative Commons BY-NC-ND 4.0 @ Krzychu 2025
